@@ -1,0 +1,220 @@
+.topPage{
+	padding-top: 15px;
+}
+.inputButton{
+	border: 2px solid grey;
+	border-radius: 40px;
+}
+
+.smallBtn .Btn {
+	border-radius: 50px;
+}
+
+#newsletter{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.nav li{
+	list-style: none;
+	text-align: left;
+	width:14.28%;
+}
+
+.nav{
+	padding-left: 0px;
+	width: 100%;
+}
+
+.actu .jumbotron {
+	background-image: url("images/blackpanther.jpg");
+	background-clip: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	height : 400px;
+}
+
+.actu .jumbotron .actutext {
+	margin-left: 25px;
+}
+
+.info ul li{
+	list-style: none;
+}
+
+h1, .avis{
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 35px;
+}
+
+img{
+	width: 100%;
+
+}
+
+#prix{
+	color: #046380;
+	font-size: 30px;
+}
+
+#resume{
+	color: grey;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.ajoutPanier{
+	background-color: #046380;
+	color: white;
+	border: none;
+	text-align: center;
+	font-size: 20px;
+	border-radius:5px;
+}
+
+.glyphicon-ok, .condition{
+	color: green;
+}
+
+.myClass1, .myClass2{
+	text-align: center;
+	margin: 5px 5px;
+}
+
+.slider-product-small .slick-slide {
+	padding: 0 15px;
+}
+
+/*étoiles------------------------------------------------*/
+
+.rating-value .star {
+			  position: relative;
+			  display: inline-block;
+			  background-image: url('images/stars/star.png');
+			}
+.rating-value .star > span {
+			  height: 30px;
+			  width: 34px;
+			  display: inline-block;
+			  background-repeat: no-repeat;
+			  background-image: url('images/stars/star.png');
+			  position: relative;
+			  float: right;
+			  z-index: 2;
+			}
+.rating-value .star > span.full {
+			  background-image: url('images/stars/star_active.png');
+			  position: relative;
+			  float: right;
+			  z-index: 2;
+			}
+.rating-value .star > span.half {
+			  background-image: url('images/stars/half_star_active.png');
+			  position: absolute;
+			  float: left;
+			  z-index: 3;
+			  width: 17px;
+			}
+.rating-value .star > span.no-visible {
+			  opacity: 0;
+			}
+.rating-value .star > span.shadow {
+			  background-image: url('images/stars/star_shadow.png');
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  z-index: 1;
+			}
+.rating-value .star:nth-child(9) > span.shadow {
+			  background-image: url('images/stars/half_star_shadow.png');
+			}
+
+/*se connecter-------------------------------------------------------------------------*/
+.loginmodal-container {
+  padding: 30px;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+a{
+	color: black;
+}
